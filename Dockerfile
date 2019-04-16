@@ -2,7 +2,7 @@ FROM ubuntu:18.04 as build
 
 LABEL maintainer="Daniel Albohn <d.albohn@gmail.com>"
 
-ARG OPENFACE_DIR=/home/OpenFace
+ARG OPENFACE_DIR=./OpenFace
 
 RUN apt-get update && apt-get install -qq -y \
     git wget sudo unzip
