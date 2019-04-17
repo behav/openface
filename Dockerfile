@@ -11,6 +11,6 @@ RUN git clone https://github.com/TadasBaltrusaitis/OpenFace.git
 
 RUN cd ${OPENFACE_DIR} && /bin/sh download_models.sh
 
-RUN cd ${OPENFACE_DIR} && ./install.sh
+RUN cd ${OPENFACE_DIR} && /bin/sh ./install.sh
 
 ENTRYPOINT ["/bin/bash"]
