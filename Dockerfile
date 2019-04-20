@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 as build
+FROM ubuntu:14.04 as build
 
 LABEL maintainer="Daniel Albohn <d.albohn@gmail.com>"
 
@@ -12,7 +12,7 @@ RUN apt-get update && apt-get -y install -qq -y \
 RUN sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak && \
     rm -f /etc/apt/sources.list
 
-ADD https://raw.githubusercontent.com/d-bohn/openface_aci/master/assets/sources.list \
+ADD https://raw.githubusercontent.com/d-bohn/openface_aci/master/assets/trusty-sources.list \
     /etc/apt/sources.list
 
 RUN apt-get update
