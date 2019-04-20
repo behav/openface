@@ -14,14 +14,14 @@ deb http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 ## team. Also, please note that software in universe WILL NOT receive any
 ## review or updates from the Ubuntu security team.
-deb http://us.archive.ubuntu.com/ubuntu/ xenial universe
+# deb http://us.archive.ubuntu.com/ubuntu/ xenial universe
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial universe
 deb http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 # deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates universe
 
-## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
-## team, and may not be under a free licence. Please satisfy yourself as to 
-## your rights to use the software. Also, please note that software in 
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team, and may not be under a free licence. Please satisfy yourself as to
+## your rights to use the software. Also, please note that software in
 ## multiverse WILL NOT receive any review or updates from the Ubuntu
 ## security team.
 deb http://us.archive.ubuntu.com/ubuntu/ xenial multiverse
