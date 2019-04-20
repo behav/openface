@@ -1,4 +1,4 @@
-FROM ubuntu:14.04 as build
+FROM ubuntu:16.04 as build
 
 LABEL maintainer="Daniel Albohn <d.albohn@gmail.com>"
 
