@@ -66,6 +66,6 @@ RUN cd ${OPENFACE_DIR} && \
     cd .. && \
     echo "OpenFace installed."
 
-RUN sudo chown -R $USER ${OPENFACE_DIR}
+RUN sudo chown -R root:root ${OPENFACE_DIR}
 
 ENTRYPOINT ["/bin/bash"]
